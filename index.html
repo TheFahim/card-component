@@ -47,14 +47,14 @@
 
   <script>
 
-
+    window.addEventListener("resize", function(){
       if (screen.width <= 375) {
         document.querySelector('img').src = './images/image-product-mobile.jpg'
       }
       else {
         document.querySelector('img').src = './images/image-product-desktop.jpg'
       }
-
+    });
   </script>
 
 </body>
